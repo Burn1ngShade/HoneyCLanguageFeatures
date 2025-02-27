@@ -1,0 +1,25 @@
+{
+  "name": "honeyc",
+  "displayName": "HoneyC",
+  "description": "HoneyC Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "honeyc",
+      "aliases": ["HoneyC", "honeyc"],
+      "extensions": [".hc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "honeyc",
+      "scopeName": "source.hc",
+      "path": "./syntaxes/honeyc.tmLanguage.json"
+    }]
+  }
+}
