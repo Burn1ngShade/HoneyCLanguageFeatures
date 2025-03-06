@@ -50,7 +50,20 @@
 				{
 					"name": "constant.character.escape.honeyc",
 					"match": "\\\\."
-				}
+				},
+                {
+                    "name": "meta.interpolation.honeyc",
+                    "begin": "\\{",
+                    "end": "\\}",
+                    "patterns": [
+                        { "include": "#keywords" },
+                        { "include": "#constants" },
+                        { "include": "#numbers" },
+                        { "include": "#variables" },
+                        { "include": "#functions" },
+                        { "include": "#staticVariables"}
+                    ]
+                }
 			]
 		},
 		"comments": {
