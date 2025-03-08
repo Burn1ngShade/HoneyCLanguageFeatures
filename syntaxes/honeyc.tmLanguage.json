@@ -52,7 +52,7 @@
 					"match": "\\\\."
 				},
                 {
-                    "name": "meta.interpolation.honeyc",
+                    "name": "meta.embedded.interpolation.honeyc",
                     "begin": "\\{",
                     "end": "\\}",
                     "patterns": [
